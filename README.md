@@ -1,2 +1,2 @@
-# CSSpractisc
+# CSSpractice
 CSS練習
