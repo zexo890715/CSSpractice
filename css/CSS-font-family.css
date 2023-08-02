@@ -1,0 +1,10 @@
+/*font-family: 用於指定網頁上文字的字型優先順序。
+  當一個字體無法顯示時，瀏覽器會嘗試使用下一個字體，直到找到可以顯示的字體為止。*/
+
+#fontfamily1 {
+	font-family: serif; /*至少要有一個通用字型*/
+}
+
+#fontfamily2 {/*字型名稱含有空格或特殊字符需要使用引號括起來。*/
+	font-family: HGGothicE, "Century Gothic", "Times New Roman/Bold", sans-serif, serif;
+}

@@ -1,0 +1,18 @@
+/*font-size: 用來指定網頁上文字的字型大小。
+  指定文字的大小有不同的方式: 大小關鍵字、固定大小和相對大小*/
+
+#fontsize {/*大小關鍵字*/
+    font-size: small; /*使用預設的較小尺寸字體 */
+    /*font-size: medium; 使用預設的中等尺寸字體 */
+    /*font-size: large; 使用預設的較大尺寸字體 */
+}
+
+#fixedsize {/*固定大小*/
+    font-size: 20px;
+}
+
+#relativesize {/*相對大小*/
+    font-size: 150%; /*使用百分比(相對於父元素字體大小)*/
+    /*font-size: 1.2em; 使用em(相對於父元素字體大小)*/
+    /*font-size: 1.5rem; 使用rem(相對於根元素字體大小)*/
+}
