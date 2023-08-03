@@ -1,0 +1,16 @@
+/*text-decoration: 用於在文字上添加裝飾效果，例如下劃線、刪除線或文本上方的線條。
+  這個屬性常用於標記超連結的顯示效果，但也可以用於其他文本元素。
+  關鍵字有: none(無效果) overline(頂線) line-through(中線/刪除線) underline(底線) inherit(繼承)*/
+
+
+#decoration-overline {/*頂線*/
+    text-decoration: overline;
+}
+
+#decoration-linethrough {/*中線*/
+    text-decoration: line-through;
+}
+
+#decoration-underline {/*底線*/
+  text-decoration: underline;
+}

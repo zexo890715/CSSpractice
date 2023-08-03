@@ -1,0 +1,12 @@
+/*font-style: 用來設定文字的斜體(italic)或斜角(oblique)，其中設定的值主要是以關鍵字為主
+  關鍵字有: normal (一般) Italic (斜體) oblique (斜角字)
+            inherit (繼承) initial (初始) unset (未設定或不設定)*/
+
+
+#style-Italic {
+    font-style: Italic;
+}
+
+#style-oblique {
+    font-style: oblique;
+}

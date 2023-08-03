@@ -6,5 +6,5 @@
 }
 
 #fontfamily2 {/*字型名稱含有空格或特殊字符需要使用引號括起來。*/
-	font-family: HGGothicE, "Century Gothic", "Times New Roman/Bold", sans-serif, serif;
+	font-family: Arial, "Comic Sans MS", "Times New Roman/Bold", fantasy, sans-serif;
 }
