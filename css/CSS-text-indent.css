@@ -1,0 +1,18 @@
+/*text-indent: 用來設定文字首行縮排，其中設定的值主要是以數值為主，此外也可使用百分比或是關鍵字
+  text-indext可使用的值與單位有以下幾種:
+  px em ex vw vh cm in % inherit initial unset*/
+
+
+#textindent-p {/*正數適合文章首行縮排兩個字寬*/
+    font-size: 20px;
+    text-indent: 2em;
+    background-color: #ccc;
+    padding: 1em;
+}
+
+#textindent-n {/*負數適合首字是一個圖示*/
+    font-size: 20px;
+    text-indent: -1em;
+    background-color: #ccc;
+    padding: 1em 1em 1em 2em;
+}

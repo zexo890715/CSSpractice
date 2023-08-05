@@ -1,0 +1,33 @@
+/*text-align: 用來設定文字的水平對齊，基本上僅需指定一個值，其作用的對象是物件內的文字
+  設定的值主要以關鍵字為主，可以設定的值有:
+    left (對齊左側)
+    center (置中)
+    right (對齊右側)
+    justify (左右對齊)
+    inherit
+    initial*/
+
+
+#textalign-left {/*對齊左側*/
+  width: 300px;
+  text-align: left;
+  background-color: #ccc;
+}
+
+#textalign-center {/*置中*/
+  width: 300px;
+  text-align: center;
+  background-color: #ccc;
+}
+
+#textalign-right {/*對齊右側*/
+  width: 300px;
+  text-align: right;
+  background-color: #ccc;
+}
+
+#textalign-justify {/*左右對齊*/
+  width: 300px;
+  text-align: justify;
+  background-color: #ccc;
+}

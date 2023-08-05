@@ -11,6 +11,9 @@
 	<link href="../css/CSS-font-style.css" rel="stylesheet" />
 	<link href="../css/CSS-text-decoration.css" rel="stylesheet" />
 	<link href="../css/CSS-line-height.css" rel="stylesheet" />
+	<link href="../css/CSS-color.css" rel="stylesheet" />
+	<link href="../css/CSS-text-indent.css" rel="stylesheet" />
+	<link href="../css/CSS-text-align.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -34,6 +37,70 @@
 	
 	<p id="lineheight-px">This is line-height: 40px</p>
 	<p id="lineheight-percent">This is line-height: 300%</p><br>
+	
+	<p id="color-Hex">This is color: #FF0000</p>
+	<p id="color-RGB">This is color: rgb(0, 255, 0)</p>
+	<p id="color-RGBA">This is color: rgba(0, 0, 255, 0.5)</p>
+	<p id="color-HSL">This is color: hsl(0, 100%, 50%)</p>
+	<p id="color-HSLA">This is color: hsl(120, 100%, 50%, 0.5)</p>
+	<p id="color-Keyword">This is color: blue</p>
+	<p id="color-HexOpacity">This is color: #FF000080</p><br>
+	
+	<p id="textindent-p">
+		text-indent設為正數適合文章首行縮排兩個字寬<br>
+		程式碼可以這樣寫: <br>
+		#textindent-p {<br>
+			font-size: 20px;<br>
+			text-indent: 2em;<br>
+			background-color: #ccc;<br>
+			padding: 1em;<br>
+		}
+	</p>
+	<p id="textindent-n">
+		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+			<path d="M32 32C32 14.3 46.3 0 64 0H320c17.7 0 32 14.3 32 32s-14.3 32-32 32H290.5l11.4 148.2c36.7 19.9 65.7 53.2 79.5 94.7l1 3c3.3 9.8 1.6 20.5-4.4 28.8s-15.7 13.3-26 13.3H32c-10.3 0-19.9-4.9-26-13.3s-7.7-19.1-4.4-28.8l1-3c13.8-41.5 42.8-74.8 79.5-94.7L93.5 64H64C46.3 64 32 49.7 32 32zM160 384h64v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V384z" />
+		</svg>
+		#text-indent設為負數適合首字是一個圖示<br>
+		程式碼可以這樣寫: <br>
+		textindent-p {<br>
+			font-size: 20px;<br>
+			text-indent: -1em;<br>
+			background-color: #ccc;<br>
+			padding: 1em 1em 1em 2em;<br>
+		}
+	</p><br>
+
+	<p id="textalign-left">
+		#textalign-left {
+		width: 300px;
+		text-align: left;
+		background-color: #ccc;
+		}
+	</p>
+
+	<p id="textalign-center">
+		#textalign-center {
+		width: 300px;
+		text-align: center;
+		background-color: #ccc;
+		}
+	</p>
+
+	<p id="textalign-right">
+		#textalign-right {
+		width: 300px;
+		text-align: right;
+		background-color: #ccc;
+		}
+	</p>
+
+	<p id="textalign-justify">
+		#textalign-justify {
+		width: 300px;
+		text-align: justify;
+		background-color: #ccc;
+		}
+	</p>
 </body>
 
 </html>
