@@ -1,0 +1,14 @@
+/*direction: 用來控制inline物件排列的方向，只要它具有inline的特性，就會受到影響，
+  並且這個屬性預設是繼承的，direction可以接受的值有:
+    ltr (左到右)
+    rtl (右到左)
+    inherit
+    initial
+    unset
+  語言文字本身就不是由右至左的話，那麼縱使設定了direction: rtl，他依舊會按照原始的由左至右的排列方式
+  排列順序改變，適合交錯式版面*/
+
+
+.direction-rtl {
+    direction: rtl;
+}

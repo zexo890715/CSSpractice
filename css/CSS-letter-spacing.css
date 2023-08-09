@@ -1,0 +1,10 @@
+/*letter-spacing: 用來控制字元間距的屬性，使用數值單位或關鍵字normal
+
+  letter-spacing 字元間距控制 (每個字之間的距離控制)
+  word-spacing 單字間距控制 (每個單字之間空白區的大小控制)
+  white-space 空白區域處理*/
+
+
+#letterspacing {
+    letter-spacing: 1em;
+}
