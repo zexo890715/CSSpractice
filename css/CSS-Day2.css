@@ -1,0 +1,56 @@
+/*font-style: 用來設定文字的斜體(italic)或斜角(oblique)，其中設定的值主要是以關鍵字為主
+  關鍵字有: normal (一般) Italic (斜體) oblique (斜角字)
+            inherit (繼承) initial (初始) unset (未設定或不設定)*/
+
+
+#style-Italic {
+  font-style: Italic;
+}
+
+#style-oblique {
+  font-style: oblique;
+}
+
+/*text-decoration: 用於在文字上添加裝飾效果，例如下劃線、刪除線或文本上方的線條。
+  這個屬性常用於標記超連結的顯示效果，但也可以用於其他文本元素。
+  關鍵字有: none(無效果) overline(頂線) line-through(中線/刪除線) underline(底線) inherit(繼承)*/
+
+
+#decoration-overline {
+  /*頂線*/
+  text-decoration: overline;
+}
+
+#decoration-linethrough {
+  /*中線*/
+  text-decoration: line-through;
+}
+
+#decoration-underline {
+  /*底線*/
+  text-decoration: underline;
+}
+
+/*line-height: 用來設定文字的行高，其中設定的值多以數值為主，使用關鍵字則是使用通用關鍵字，
+  像是「normal、inherit、initial、unset」這些。
+  line-height數值的值可以使用的有以下這幾種:
+    px (像素) 
+    % (百分比) 
+    純數字(含小數點) 
+    em
+  300%=3em=3*/
+
+
+#lineheight-px {
+  /*px*/
+  line-height: 40px;
+  background-color: aqua;
+}
+
+#lineheight-percent {
+  /*倍數*/
+  line-height: 300%;
+  /*line-height: 3em;*/
+  /*line-height: 3;*/
+  background-color: chartreuse;
+}

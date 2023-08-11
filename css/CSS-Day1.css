@@ -1,0 +1,67 @@
+/*font-family: 用於指定網頁上文字的字型優先順序。
+  當一個字體無法顯示時，瀏覽器會嘗試使用下一個字體，直到找到可以顯示的字體為止。*/
+
+#fontfamily1 {
+  font-family: serif;
+  /*至少要有一個通用字型*/
+}
+
+#fontfamily2 {
+  /*字型名稱含有空格或特殊字符需要使用引號括起來。*/
+  font-family: Arial, "Comic Sans MS", "Times New Roman/Bold", fantasy, sans-serif;
+}
+
+/*font-size: 用來指定網頁上文字的字型大小。
+  指定文字的大小有不同的方式: 大小關鍵字、固定大小和相對大小*/
+
+#fontsize {
+  /*大小關鍵字*/
+  font-size: small;
+  /*使用預設的較小尺寸字體 */
+  /*font-size: medium; 使用預設的中等尺寸字體 */
+  /*font-size: large; 使用預設的較大尺寸字體 */
+}
+
+#fixedsize {
+  /*固定大小*/
+  font-size: 20px;
+}
+
+#relativesize {
+  /*相對大小*/
+  font-size: 150%;
+  /*使用百分比(相對於父元素字體大小)*/
+  /*font-size: 1.2em; 使用em(相對於父元素字體大小)*/
+  /*font-size: 1.5rem; 使用rem(相對於根元素字體大小)*/
+}
+
+/*font-weight: 用來指定網頁上文字的字型粗細。
+  粗細關鍵字有分:
+  normal：預設值，表示使用正常（常規）的字重。一般情況下，normal的字重等同於400。
+
+  bold：表示使用粗體字重。一般情況下，bold的字重等同於700。
+
+  lighter：相對於父元素的字重更輕。例如，如果父元素的字重是normal（等同於400），
+           則lighter的字重將是更輕的100或更接近100的字重。
+
+  bolder：相對於父元素的字重更粗。例如，如果父元素的字重是bold（等同於700），
+          則bolder的字重將是更粗的900或更接近900的字重。
+
+  inherit：繼承父元素的字重設定。如果未在當前元素上指定font-weight，則它將從父元素繼承字重設定。
+
+  initial：將字重重置為它的初始值，即normal（等同於400）。
+
+  unset：如果元素未指定font-weight，則它將繼承父元素的字重，否則重置為初始值normal（等同於400）。
+
+  數值的部份能分成9個粗細層級: 100~900*/
+
+
+#fontweight {
+  /*粗細關鍵字*/
+  font-weight: bold;
+}
+
+#valueweight {
+  /*數值粗細*/
+  font-weight: 400;
+}

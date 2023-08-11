@@ -1,0 +1,48 @@
+/*font是一個文字相關屬性的縮寫屬性，包括文字樣式、小型大寫字、文字粗體、尺寸、行高、字型...等多個屬性
+  font 可同時設定的值詳細的說，包括了:
+      font-style 
+      font-variant 
+      font-weight 
+      font-size 
+      line-height 
+      font-family
+    font-size與line-height，這兩個屬性需要使用一條斜線隔開，且這兩個屬性不能分開設定，要設定就一定要同時設定*/
+
+
+#fontsetting {
+  font: italic bold 20px/1.6 'Noto Sans TC', sans-serif;
+}
+
+/*background-color: 用來設定背景的色彩，其中設定的值有多種方式，其中可以設定的值有:
+    16進位碼的色彩表示(Hex) 
+    RGB色彩表示法 
+    RGBA色彩表示法 
+    HSL色彩表示法 
+    HSLA色彩表示法 
+    色彩關鍵字
+  漸層色彩是背景圖片(background-image)而非背景色(background-color)
+  背景色只能設定一個，圖片能設定多個
+  可支援CSS transition 製作動畫效果*/
+
+#backgroundcolor {
+  background-color: red;
+}
+
+/*background-color: 用來設定設定背景圖片，在不控制大小的情況下，預設就是原始圖片大小，
+  且圖片僅會顯示在區塊的範圍內，當圖片太大張的時候，圖片將會發生裁切的情形
+  background-image支援的值有以下幾種:
+    url()
+    linear-gradient()
+    radial-gradient()
+    repeating-linear-gradient()
+    repeating-radial-gradient()
+    Inital Inherit
+  瀏覽器本身對於背景圖的設定預設是repeat，需要添加一個no-repeat*/
+
+#backgroundimage{
+  color: white;
+  width: 290px;
+  height: 174px;
+  background-repeat: no-repeat;
+  background-image: url("../img/virtualspace.jpg");
+}
